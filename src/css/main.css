@@ -1,0 +1,223 @@
+body {
+  background: #222;
+  color: #fff;
+  font-size: 22px;
+}
+
+.links {
+  text-decoration: none;
+  color: #fff;
+}
+
+button,
+input {
+  background: #222;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+select {
+  border: none;
+  outline: none;
+  border-radius: 0.3em;
+  border: 2px solid #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, #f16a14 100%);
+}
+
+button {
+  cursor: pointer;
+}
+
+.loggin {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  background: url(../../public/assets/bk.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.loggin__form {
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+  gap: 0.6em;
+  position: relative;
+  padding: 0.5em;
+}
+.loggin__input {
+  flex-grow: 1;
+  padding: 0.2em 0.5em;
+  border-bottom-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  background: radial-gradient(circle, #eeaeca 0%, #f16a14 100%);
+}
+.loggin__input::placeholder {
+  color: #fff;
+}
+.loggin__button {
+  border: 2px solid #f16a14;
+  border-radius: 3em;
+  background: #eeaeca;
+  color: #eee;
+  width: 5em;
+}
+.loggin__link {
+  color: #f16a14;
+  padding: 0.2em 0.5em;
+  align-self: flex-start;
+  font-weight: bold;
+}
+
+.register {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  background: url(../../public/assets/bk__loggin.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.register__form {
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+  gap: 0.7em;
+}
+.register__input {
+  flex-grow: 1;
+  padding: 0.2em 0.5em;
+  border-bottom-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  background: radial-gradient(circle, #eeaeca 0%, #f16a14 100%);
+}
+.register__input::placeholder {
+  color: #fff;
+}
+.register__button {
+  margin: 0.4em 0 0 0;
+  border: 2px solid #f16a14;
+  border-radius: 3em;
+  background: #eeaeca;
+  color: #eee;
+  width: 7em;
+}
+.register__link {
+  color: #f16a14;
+  font-weight: bold;
+}
+
+.p {
+  background: beige;
+}
+
+.principal {
+  height: 100vh;
+  background: url(../../public/assets/bk2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+.principal__bienvenida {
+  text-align: center;
+  margin: 0 0 1em 0;
+  color: #333;
+  background: rgba(198, 197, 197, 0.5019607843);
+  padding: 0.3em;
+}
+.principal__gracias {
+  flex-grow: 1;
+  height: 78vh;
+}
+.principal__back {
+  background: rgba(198, 197, 197, 0.5019607843);
+  padding: 0.5em;
+  color: #222;
+}
+.principal__form {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 0 0.5em;
+  gap: 0.5em;
+}
+.principal__container {
+  background: rgba(198, 197, 197, 0.1254901961);
+  padding: 0.3em;
+  color: #333;
+  backdrop-filter: blur(1em);
+}
+.principal__sillas {
+  display: flex;
+  gap: 1em;
+}
+.principal__label {
+  position: relative;
+  z-index: 1;
+  opacity: 1;
+}
+.principal__img {
+  flex-basis: 80px;
+  height: 100px;
+  cursor: pointer;
+}
+.principal__button {
+  border: 2px solid #f16a14;
+  border-radius: 3em;
+  background: #eeaeca;
+  color: #eee;
+  width: 5em;
+}
+.principal__button:nth-of-type(1) {
+  align-self: center;
+}
+.principal__button2 {
+  border: 2px solid #f16a14;
+  border-radius: 3em;
+  background: #eeaeca;
+  color: #eee;
+  width: 8em;
+  margin-top: 1em;
+}
+
+.estadisticas {
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  padding: 0.3em;
+  text-align: center;
+}
+.estadisticas__form {
+  margin: 1em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3em;
+}
+.estadisticas__button {
+  border: 2px solid #f16a14;
+  border-radius: 3em;
+  background: #eeaeca;
+  color: #eee;
+  width: 5em;
+}
+.estadisticas__option {
+  outline: none;
+  border: none;
+  background: #f16a14;
+}
+
+.estadisticas__option {
+  outline: none;
+  border: none;
+}
+
+/*# sourceMappingURL=main.css.map */
